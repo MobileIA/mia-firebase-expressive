@@ -1,0 +1,26 @@
+{
+    "name": "mobileia/mia-firebase-expressive",
+    "description": "The library for Zend Expressive 3",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [{
+        "name": "Matias Camiletti",
+        "homepage": "http://www.mobileia.com"
+    }],
+    "repositories": [{
+        "type": "git",
+        "url": "https://github.com/MobileIA/mia-firebase-expressive.git"
+    }],
+    "require": {
+        "php": "^7.1",
+        "psr/container": "^1.0",
+        "zendframework/zend-http": "^2.8",
+        "mobileia/mia-firebase-zf3": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mobileia\\Expressive\\Firebase\\": "src/"
+        }
+    }
+}
