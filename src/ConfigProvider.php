@@ -36,6 +36,7 @@ class ConfigProvider
             ],
             'factories'  => [
                 \MIAFirebase\Messaging::class => MessagingFactory::class,
+                \Mobileia\Expressive\Firebase\Middleware\FirebaseMessageMiddleware::class => \Mobileia\Expressive\Firebase\Factory\FirebaseMessageFactory::class,
             ],
         ];
     }
